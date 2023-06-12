@@ -63,7 +63,7 @@ public class Closet extends JFrame implements ActionListener {
 //이벤트 메소드
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		b = TodoPanel.count;
+		b = TodoFrame.count;
 		if (e.getActionCommand().equals("LV.1")) {
 			no1 = new ImageIcon("img\\cha11.png");
 			img = no1.getImage();
@@ -138,8 +138,8 @@ public class Closet extends JFrame implements ActionListener {
 		}
 	}
 
-	@SuppressWarnings("unused")
-	public static void main(String[] args) {
-		Closet d = new Closet();
-	}
+	/*
+	 * @SuppressWarnings("unused") public static void main(String[] args) { Closet d
+	 * = new Closet(); }
+	 */
 }
